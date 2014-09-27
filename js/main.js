@@ -4,7 +4,7 @@ $(function() {
 			type: 'column'
 		},
 		title: {
-			text: 'Unique types of awards'
+			text: 'Unique award categories'
 		},
 		subtitle: {
 			text: ''
@@ -81,7 +81,7 @@ $(function() {
 			type: 'bar'
 		},
 		title: {
-			text: 'Most ONA Awards winners'
+			text: 'Total OJA Awards Won, by Organization, from 2000 to 2013'
 		},
 		subtitle: {
 			text: ''
@@ -195,7 +195,7 @@ $('#errors').highcharts({
 			type: 'line'
 		},
 		title: {
-			text: '% of disabled links'
+			text: 'Percent of project links that no longer work, by year'
 		},
 		subtitle: {
 			text: ''
