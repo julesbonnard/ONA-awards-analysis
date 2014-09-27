@@ -190,6 +190,82 @@ $(function() {
 			color: '#2b8cbe'
 		}]
 	});
+$('#errors').highcharts({
+		chart: {
+			type: 'line'
+		},
+		title: {
+			text: '% of disabled links'
+		},
+		subtitle: {
+			text: ''
+		},
+		xAxis: {
+			categories: [
+				'2000',
+				'2001',
+				'2002',
+				'2003',
+				'2004',
+				'2005',
+				'2006',
+				'2007',
+				'2008',
+				'2009',
+				'2010',
+				'2011',
+				'2012',
+				'2013',
+				'2014'
+			],
+			tickInterval: 2
+		},
+		yAxis: {
+			min: 0,
+			title: {
+				text: ''
+			}
+		},
+		tooltip: {
+			headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+			pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+				'<td style="padding:0"><b>{point.y} %</b></td></tr>',
+			footerFormat: '</table>',
+			shared: true,
+			useHTML: true,
+			enabled: true
+		},
+		plotOptions: {
+			column: {
+				pointPadding: 0,
+				borderWidth: 0
+			},
+			series: {
+				borderWidth: 0,
+				dataLabels: {
+					enabled: false,
+					format: '{point.y}'
+				}
+			}
+		},
+		series: [{
+			name: 'Disabled links',
+			data: [18.18,27.27,30.30,10.91,44.44,30.99,12.16,19.32,9.30,11.22,11.43,6.67,5.94,11.11,3.67],
+			color: "#1c9099"
+		}
+		// ,
+		// {
+		// 	name: 'Finalists and winners',
+		// 	data: [44,66,66,55,63,71,74,88,86,98,105,105,101,99,109]
+		// }
+		],
+		legend: {
+			enabled: false
+		},
+		credits: {
+			enabled: false
+		}
+	});
 
 	$(document).ready(function() {
     $('#explore').dataTable( {
