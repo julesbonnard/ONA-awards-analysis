@@ -285,7 +285,8 @@ $('#errors').highcharts({
         "order": [[ 3, "desc" ]],
         "scrollY":        "500px",
         "scrollCollapse": true,
-        "paging":         false
+        "paging":         false,
+        "fnDrawCallback": function( oSettings ) { pymChild.sendHeight(); }
     } );
 } );
 });
