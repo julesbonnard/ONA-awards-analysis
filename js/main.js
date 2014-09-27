@@ -81,7 +81,7 @@ $(function() {
 			type: 'bar'
 		},
 		title: {
-			text: 'Most ONA Awards winners'
+			text: 'Total OJA Awards Won, by Organization, from 2000 to 2013'
 		},
 		subtitle: {
 			text: ''
