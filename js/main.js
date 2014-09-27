@@ -4,7 +4,7 @@ $(function() {
 			type: 'column'
 		},
 		title: {
-			text: 'Unique types of awards'
+			text: 'Unique award categories'
 		},
 		subtitle: {
 			text: ''
@@ -195,7 +195,7 @@ $('#errors').highcharts({
 			type: 'line'
 		},
 		title: {
-			text: '% of disabled links'
+			text: 'Percent of project links that no longer work, by year'
 		},
 		subtitle: {
 			text: ''
