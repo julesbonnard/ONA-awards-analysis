@@ -155,6 +155,18 @@ $(function() {
 			labels: {
 				overflow: 'justify'
 			},
+			plotLines: [{ //Initialisation des barres verticales
+                color: 'red',
+                dashStyle: 'line', //Pointillés
+                width: 5,
+                value: 30.6, // Position sur l'axe chronologique (Attention : les mois en javascript démarrent à zéro, donc mars = 2)
+                label: {
+                    rotation: 0,
+                    text: '', //Nom affiché sur la barre verticale
+                    textAlign: 'left',
+                    align: 'left'
+                }
+            }],
 			tickInterval: 20
 		},
 		tooltip: {
