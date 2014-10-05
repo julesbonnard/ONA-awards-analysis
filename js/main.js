@@ -81,7 +81,7 @@ $(function() {
 			type: 'bar'
 		},
 		title: {
-			text: 'Total OJA Awards Won, by Organization, from 2000 to 2013'
+			text: 'Total OJA Awards Won, by Organization, from 2000 to 2014'
 		},
 		subtitle: {
 			text: ''
