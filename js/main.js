@@ -59,7 +59,7 @@ $(function() {
 		},
 		series: [{
 			name: 'Available awards',
-			data: [11, 15, 15, 15, 16, 17, 19, 20, 23, 30, 32, 28, 30, 29, 31],
+			data: [11, 15, 15, 15, 16, 17, 19, 20, 23, 30, 32, 28, 30, 29, 34],
 			color: "#1c9099"
 		}
 		// ,
@@ -87,7 +87,7 @@ $(function() {
 			text: ''
 		},
 		xAxis: {
-			categories: ["New York Times","Slate","CNN","Washington Post","NPR","CBC News","Salon","ProPublica","MSNBC","Los Angeles Times","Las Vegas Sun","BBC News","WNYC","University of North Carolina","ESPN","CNET","WebMD","New West","National Film Board of Canada","Gotham Gazette","Center for Public Integrity","Associated Press"],
+			categories: ["New York Times","ProPublica","NPR","Slate","CNN","Washington Post","Los Angeles Times","CBC News","Salon","MSNBC","Las Vegas Sun","BBC News","WNYC","University of North Carolina","ESPN","CNET","Center for Public Integrity","WebMD","USA TODAY","University of Miami School of Communication","UC Berkeley Graduate School of Journalism","New West","National Film Board of Canada", "Mother Jones", "Gotham Gazette", "Associated Press", "Center for Investigative Reporting"],
 			title: {
 				text: null
 			}
@@ -126,7 +126,7 @@ $(function() {
 		},
 		series: [{
 			name: '',
-			data: [18,7,7,6,6,6,5,5,5,5,5,5,4,4,4,4,3,3,3,3,3,3]
+			data: [19,10,9,7,7,6,6,6,5,5,5,5,4,4,4,4,4,3,3,3,3,3,3,3,3,3,3]
 		}]
 	});
 
@@ -141,7 +141,7 @@ $(function() {
 			text: ''
 		},
 		xAxis: {
-			categories: ["New York Times","Slate","CNN","Washington Post","NPR","CBC News","Salon","ProPublica","MSNBC","Los Angeles Times","Las Vegas Sun","BBC News","WNYC","University of North Carolina","ESPN","CNET","WebMD","New West","National Film Board of Canada","Gotham Gazette","Center for Public Integrity","Associated Press"],
+			categories: ["New York Times","ProPublica","NPR","Slate","CNN","Washington Post","Los Angeles Times","CBC News","Salon","MSNBC","Las Vegas Sun","BBC News","WNYC","University of North Carolina","Texas Tribune","ESPN","CNET","Center for Public Integrity","WebMD","USA TODAY","University of Miami School of Communication","UC Berkeley Graduate School of Journalism","New West","National Film Board of Canada","Mother Jones","Gotham Gazette","Associated Press","Center for Investigative Reporting"],
 			title: {
 				text: null
 			}
@@ -159,7 +159,7 @@ $(function() {
                 color: 'red',
                 dashStyle: 'line', //Pointillés
                 width: 5,
-                value: 30.6, // Position sur l'axe chronologique (Attention : les mois en javascript démarrent à zéro, donc mars = 2)
+                value: 33.3, // Position sur l'axe chronologique (Attention : les mois en javascript démarrent à zéro, donc mars = 2)
                 label: {
                     rotation: 0,
                     text: '', //Nom affiché sur la barre verticale
@@ -194,11 +194,11 @@ $(function() {
 		series: [
 		{
 			name: 'Finalist',
-			data: [44,14,14,26,19,6,13,20,10,24,11,5,2,5,10,10,3,3,1,7,20,7],
+			data: [44,16,18,14,14,26,23,6,13,10,11,5,2,5,6,10,10,20,3,14,7,2,3,1,9,7,7,12],
 			color: '#a6bddb'
 		},{
 			name: 'Winner',
-			data: [18,7,7,6,6,6,5,5,5,5,5,5,4,4,4,4,3,3,3,3,3,3],
+			data: [19,10,9,7,7,6,6,6,5,5,5,5,4,4,4,4,4,4,3,3,3,3,3,3,3,3,3,3],
 			color: '#2b8cbe'
 		}]
 	});
@@ -262,7 +262,7 @@ $('#errors').highcharts({
 		},
 		series: [{
 			name: 'Disabled links',
-			data: [18.18,27.27,30.30,10.91,44.44,30.99,12.16,19.32,9.30,11.22,11.43,6.67,5.94,11.11,3.67],
+			data: [9.09,12.12,10.61,10.91,7.94,8.45,10.81,12.50,11.63,13.27,4.76,1.90,0.00,5.05,0.00],
 			color: "#1c9099"
 		}
 		// ,
